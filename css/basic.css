@@ -1,1 +1,123 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+
+/*
+    Färger:
+    body bg     : fcfaf4
+    
+    container border: cecab9
+    
+    header bg   : 51473d
+    main bg     : eae7d2
+    
+    main h1 : 797066
+    
+    
+    subcontent h2           : 51473d
+    subcontent link list    : 51473d
+    
+    
+    nav border bottom   : ffffff;
+    nav bak             : 51473d
+    
+    nav button              : eae7d2
+    nav button border top   : 847c73
+    nav button text         : dfe7c7
+    
+    
+    nav active      : 797066
+    nav active text : 888076
+    
+    nav hover               : 9c9084
+    nav hover border top    : 847c73
+    nav hover text          : dfe7c7
+*/
+
+body *{
+    margin:0;
+    padding:0;
+}
+
+html, body{
+    width:100%;
+    background-color:#fcfaf4;
+}
+
+h1, h2, h3, h4, h5, h6{
+    
+}
+
+p{
+    
+}
+
+#container{
+    position:relative;
+    width:600px;
+    margin:10px auto;
+    border:1px solid #cecab9;
+}
+
+#topbar{
+    text-align:right;
+    background-color:#51473d;
+}
+
+#menu{
+    float:left;
+    width:100%;
+    clear:both;
+}
+
+#menu>a{
+    display:block;
+    width:100%;
+    height:200px;
+    background-image:url(pics/coffey.jpg);
+}
+    #menu ul{
+        list-style-type:none;
+    }
+    
+    #menu ul li{
+        float:left;
+        padding:0;
+    }
+    
+    #manu ul li:active{
+        
+    }
+    
+    #menu ul li a,
+    #menu ul li a:visited{
+        
+    }
+    
+    #menu ul li a:hover{
+        
+    }
+
+#content{
+    
+}
+
+#maincontent{
+    float:left;
+    padding:10px;
+    width:350px;
+    border-right: 1px dashed #c0c0c0;
+}
+
+#maincontent img{
+    float:left;
+}
+
+#subcontent{
+    float:left;
+    padding:10px;
+    width:209px;
+}
+
+#bottomcontent{
+    width:100%;
+    clear:both;
+}
