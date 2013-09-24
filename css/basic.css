@@ -42,15 +42,16 @@ body *{
 html, body{
     width:100%;
     background-color:#fcfaf4;
+    font-family:verdana;
 }
 
 h1, h2, h3, h4, h5, h6{
     font-weight:normal;
     color:#797066;
+    font-family:"Times New Roman";
 }
 
 p{
-    font-family:verdana;
     color:#797066;
 }
 
@@ -66,7 +67,6 @@ p{
     text-align:right;
     background-color:#51473d;
     color: #eae7d2;
-    font-family:verdana;
     font-size:0.6em;
     font-style:italic;
 }
@@ -89,24 +89,41 @@ p{
 
     #menu ul{
         list-style-type:none;
+        margin:4px 0 0 10px;
     }
     
     #menu ul li{
         float:left;
-        padding:0;
+        background-color: #797066;
+        margin-right:1px;
     }
     
-    #menu ul li:active{
-        
+    #menu ul li.active{
+        background-color:#eae7d2;
+        position:relative;
+        top:1px;
+    }
+    
+    #menu ul li.active a{
+        color:#888076;
     }
     
     #menu ul li a,
     #menu ul li a:visited{
-        
+        display:block;
+        padding:8px 20px;
+        background-color:;
+        color: #eae7d2;
+        text-decoration:none;
+        font-size:0.75em;
+        text-transform: capitalize;
+        border-top:1px solid #847c73;
     }
     
     #menu ul li a:hover{
-        
+        color: #dfe7c7;
+        background-color: #9c9084;
+        border-top: 1px solid #847c73;
     }
 
 #content{
@@ -163,9 +180,7 @@ p{
 }
 
 #subcontent ul li a{
-    text-decoration:none;
     color:#51473d;
-    font-family:verdana;
     font-size:0.8em;
 }
 
@@ -173,7 +188,6 @@ p{
     width:100%;
     padding:10px;
     clear:both;
-    font-family:verdana;
     font-size:0.6em;
     font-style:italic;
     color:#797066;
