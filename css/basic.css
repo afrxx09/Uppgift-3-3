@@ -7,6 +7,8 @@
     container border: cecab9
     
     header bg   : 51473d
+    header text : eae7d2
+    
     main bg     : eae7d2
     
     main h1 : 797066
@@ -43,11 +45,13 @@ html, body{
 }
 
 h1, h2, h3, h4, h5, h6{
-    
+    font-weight:normal;
+    color:#797066;
 }
 
 p{
-    
+    font-family:verdana;
+    color:#797066;
 }
 
 #container{
@@ -58,22 +62,31 @@ p{
 }
 
 #topbar{
+    padding:5px 2px;
     text-align:right;
     background-color:#51473d;
+    color: #eae7d2;
+    font-family:verdana;
+    font-size:0.6em;
+    font-style:italic;
 }
 
 #menu{
     float:left;
     width:100%;
     clear:both;
+    background-color: #51473d;
+    border-bottom:1px solid #fff;
+    margin-bottom:20px;
 }
 
-#menu>a{
+#menu > a{
     display:block;
-    width:100%;
+    width:600px;
     height:200px;
     background-image:url(pics/coffey.jpg);
 }
+
     #menu ul{
         list-style-type:none;
     }
@@ -83,7 +96,7 @@ p{
         padding:0;
     }
     
-    #manu ul li:active{
+    #menu ul li:active{
         
     }
     
@@ -97,27 +110,71 @@ p{
     }
 
 #content{
-    
+    background-color:#eae7d2;
 }
 
 #maincontent{
     float:left;
-    padding:10px;
+    padding:0 10px;
     width:350px;
     border-right: 1px dashed #c0c0c0;
 }
 
 #maincontent img{
     float:left;
+    padding: 0 5px 5px 0;
+}
+
+#maincontent h1{
+    margin-bottom:10px;
+}
+
+#maincontent p{
+    font-size:0.8em;
+    line-height:1.5em;
 }
 
 #subcontent{
     float:left;
-    padding:10px;
+    padding:0 10px;
     width:209px;
+}
+
+#subcontent h1{
+    color: #51473d;
+    font-size:1.2em;
+    margin-bottom:10px;
+}
+
+#subcontent h2{
+    color: #51473d;
+    font-size: 1em;
+    margin-top:20px;
+}
+
+#subcontent p{
+    font-size:0.55em;
+    line-height:2em;
+}
+
+#subcontent ul{
+    list-style-type:none;
+    margin:0;
+}
+
+#subcontent ul li a{
+    text-decoration:none;
+    color:#51473d;
+    font-family:verdana;
+    font-size:0.8em;
 }
 
 #bottomcontent{
     width:100%;
+    padding:10px;
     clear:both;
+    font-family:verdana;
+    font-size:0.6em;
+    font-style:italic;
+    color:#797066;
 }
